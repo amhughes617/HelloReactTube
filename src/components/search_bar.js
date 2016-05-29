@@ -2,7 +2,6 @@ import React, { Component } from 'react'; //still need this for any component wi
 // { Component } is like const Component = React.Component;
 
 // 1
-
 class SearchBar extends Component { //ES6 magic, because of { Component } in import at top
   constructor(props) {
     super(props);

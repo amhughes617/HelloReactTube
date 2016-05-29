@@ -1,10 +1,13 @@
 import React from 'react'; //es6 getting React; creates components
 import ReactDOM from 'react-dom'; //interacts with the DOM
+import dotenv from 'dotenv';
 
 //need to specify ./ (current directory) and give file path for this because it is not a library like the stuff above
 import SearchBar from './components/search_bar';//don't need file extension as long as it's a .js file
 
-const API_KEY = '';
+dotenv.load();
+
+const API_KEY = process.env.API_KEY;
 
 const App = () => {
   return (
