@@ -6,9 +6,7 @@ import SearchBar from './components/search_bar';//don't need file extension as l
 
 const API_KEY = '';
 
-// Create a new component to produce html.
 const App = () => {
-  //return JSX which transpiles to vanilla js
   return (
     <div>
       <SearchBar />
