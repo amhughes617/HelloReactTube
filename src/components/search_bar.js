@@ -11,12 +11,17 @@ class SearchBar extends Component { //ES6 magic, because of { Component } in imp
   // 2
   render() {
     return (
-      <div>
+      <div className="search-bar">
         <input
           value={this.state.term}   //value only changes when the state changes, controlled by state
-          onChange={event => this.setState({ term: event.target.value })} />
+          onChange={event => this.onInputChange(event.target.value)} />
       </div>
     );
+  }
+
+  onInputChange(term) {
+    this.setState({term});
+    this.props.onSearchTermChange(term);
   }
   // 3
 }
