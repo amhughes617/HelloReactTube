@@ -1,7 +1,7 @@
 import React from 'react'; //es6 getting React; creates components
 import ReactDOM from 'react-dom'; //interacts with the DOM
 
-const API_KEY = 'AIzaSyAP3sOevtKXpR6Oxou8AxavG5e_HXsWdnM';
+const API_KEY = '';
 
 // Create a new component to produce html.
 const App = () => {
