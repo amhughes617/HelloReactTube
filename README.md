@@ -1,2 +1,2 @@
 # ReduxSimpleStarter
-Small youtube clone using youtube-api-search, to learn React
+Small youtube clone using youtube-api-search, to learn React, following tutorial
